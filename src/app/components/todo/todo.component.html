@@ -1,0 +1,12 @@
+
+<div class="todo" [ngClass]="{ completed: todo?.complete}">
+  <div class="todo-desc">
+    {{ todo?.todo }}
+  </div>
+  <div 
+    class="todo-complete"
+    (click)="completeHandler()"
+    >
+    <span class="check">✓</span>
+  </div>
+</div>

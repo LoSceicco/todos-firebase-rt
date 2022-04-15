@@ -1,0 +1,19 @@
+.bar-container {
+  position: fixed;
+  bottom: 0;
+  height: 40px;
+  width: 100vw;
+  background: coral;;
+}
+
+.bar-container form {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bar-container input {
+  width: 100%;
+  margin-right: 10px;
+}
+

@@ -1,0 +1,19 @@
+
+<div class="bar-container">
+  <form 
+    (ngSubmit)="submitHandler()"
+    #form="ngForm"
+    >
+    <input 
+      required
+      [(ngModel)]="todo"
+      name="todo"
+      type="text">
+    <button
+      type="submit"
+      [disabled]="form.invalid"
+      >
+      +
+    </button>
+  </form>
+</div>

@@ -1,0 +1,31 @@
+.todo {
+  background: coral;
+  display: flex;
+  padding: 10px 25px;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px black;
+  margin-bottom: 10px;
+}
+
+.todo.completed {
+  background: green;
+}
+
+.todo-desc {
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+.todo-complete {
+  cursor: pointer;
+}
+
+.completed .todo-complete {
+  cursor: default;
+  color: white !important;
+}
+
+.todo-complete:not(.completed):hover {
+  color: green;
+}

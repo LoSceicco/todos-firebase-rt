@@ -1,0 +1,7 @@
+<div class="errors-container">
+  <div class="error-message"
+    [ngStyle]="{ opacity: showError ? .9 : 0 }"
+    (click)="dismissError()">
+  {{ errorMessage }}
+  </div>
+</div>

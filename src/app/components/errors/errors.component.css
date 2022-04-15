@@ -1,0 +1,16 @@
+
+.errors-container {
+  position: fixed;
+  top: 0;
+  text-align: center;
+  width: 100vw;
+}
+
+.error-message {
+  background: orangered;
+  color: white;
+  padding: 10px;
+  box-shadow: 1px 1px 2px black;
+  cursor: pointer;
+  transition: opacity ease-out 1s;
+}
